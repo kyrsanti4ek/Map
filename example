@@ -1,0 +1,14 @@
+//Hash-Map
+    
+    public static void main(String[] args) {
+
+        Map<String,Integer> ourMap = new HashMap<>();
+        ourMap.put("login", 23);
+        System.out.println(ourMap);
+
+        ourMap.put("password", 12345);
+        System.out.println(ourMap);
+        System.out.println("===============");
+        System.out.println(ourMap.get("password"));
+        ourMap.put("password",777); // перезапишет значение
+    }
